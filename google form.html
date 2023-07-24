@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<body>
+    <h1>GOOGLE FORM</h1>
+    <form  action="structure.html" >
+        <label for="username">Username: </label><!-- label and id for choose any place of the word then will be ticked and choose only one button -->
+        <input type="text" id="username" placeholder="username" required><br><br><!-- placeholder means write background-->
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="password" required><br><br>
+
+        <label for="email">Gmail: </label>
+        <input type="email" id="email" placeholder="email" required><br><br>
+        
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male"><br>
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female"><br>
+
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="Other"><br>
+        
+        <label for="age-group">Select your age: </label>
+        <select name="age-group" id="age-group">
+            <option value="5-10">5-10</option>
+            <option value="11-20">11-20</option>
+            <option value="21-50">21-50</option>
+            <option value="50+">50+</option>
+        </select><br>
+
+        <p>comment below: </p><br>
+        <textarea name="" id="" cols="30" rows="10" height="100" placeholder="type here"></textarea><br>
+
+        <p>DOB: </p>
+        <input type="date" name="" id=""><br>
+
+        <input type="file" name="" id=""><br>
+        
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
